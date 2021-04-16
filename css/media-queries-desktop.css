@@ -4,6 +4,7 @@
 
 body {
     margin: 0 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -41,8 +42,15 @@ nav {
     /*background-color: cadetblue;*/
     /*display: flex;*/
     /*flex-direction: column;*/
-    background-color: red;
+    /*background-color: red;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    float: left;
+    margin: 0 .5em;
+    width: calc(25% - 1em);
+    align-self: flex-end;
     width: 100%;
+
 }
 
 .nav-links {
@@ -53,7 +61,8 @@ nav {
     /*flex-direction: column;*/
     /*align-items: center;*/
     /*background-color: red;*/
-
+    background-color: blueviolet;
+    width: 100%;
 }
 
 ul {
@@ -73,6 +82,9 @@ li{
 
     /*background-color: yellow;*/
     /*!*width: 100%;*!*/
+    background-color: brown;
+    display: flex;
+    align-self: flex-start;
 }
 
 a{
@@ -108,32 +120,39 @@ img {
 
 section {
     display: flex;
-    flex-direction: row;
+   flex-direction: column;
 
 }
 
 .main {
-    background-color: red;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    justify-content: flex-start;
-
-    /*float: right;*/
+    background-color: greenyellow;
+    /*!*display: flex;*!*/
+    /*!*flex-direction: column;*!*/
+    /*justify-content: flex-start;*/
+    /*float: left;*/
 
     /*margin: 0 0.5em;*/
     /*width: calc(25% - 1em);*/
+    float: left;
+    margin: 0 .5em;
+    width: calc(50% - 1em);
+   align-self: flex-start;
 
 }
 
 .sub-section {
     background-color: chocolate;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     /*display: flex;*/
     /*flex-direction: row-reverse;*/
     /*float: left;*/
 
     /*margin: 0 0.5em;*/
     /*width: calc(25% - 1em);*/
+    float: left;
+    margin: 0 .5em;
+    width: calc(25% - 1em);
+    align-self: flex-end;
 
 }
 /*section {*/
